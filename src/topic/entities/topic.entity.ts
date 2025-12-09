@@ -7,7 +7,7 @@ import {
   OneToOne,
   JoinColumn,
 } from 'typeorm';
-import { User } from '../../user';
+import { User } from '../../user/entities/user.entity';
 import { PageContent } from '../../page-content/entities/page-content.entity';
 import { Repetition } from '../../repetition/entities/repetition.entity';
 
